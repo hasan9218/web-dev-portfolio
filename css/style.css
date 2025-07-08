@@ -16,6 +16,9 @@
 .text-primary {
   color: #FD6E0A;
 }
+.text-center {
+  text-align: center;
+}
 .dark-2 {
   color: #757575;
 }
@@ -53,7 +56,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 50px 200px;
+  margin: 0 200px;
 }
 
 .nav-title {
@@ -125,13 +128,16 @@ main {
   max-width: 1140px;
   margin: 0 auto;
 }
+main section {
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
 
 /* About Part Start */
 .about {
   border-radius: 10px;
   padding: 130px 150px;
   text-align: center;
-  margin-top: 130px;
 }
 .about-items {
   display: flex;
@@ -149,3 +155,27 @@ main {
 
 
 /* About Part End */
+
+/* What I do Part Start */
+.skills-container {
+  display: flex;
+  gap: 24px;
+  padding-top: 35px;
+}
+.skill {
+  padding: 30px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+
+}
+.skill-title h4 {
+  font-style: bold;
+  font-size: 20px;
+  color: #181818;
+}
+.skill-description {
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
+}
+/* What I do Part End */
