@@ -136,7 +136,7 @@ main section {
 /* About Part Start */
 .about {
   border-radius: 10px;
-  padding: 130px 150px;
+  padding: 80px 150px;
   text-align: center;
 }
 .about-items {
@@ -179,3 +179,81 @@ main section {
   color: #757575;
 }
 /* What I do Part End */
+
+/* Resume Start */
+.resume-container {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 30px;
+}
+.resume h3 {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+.resume-column-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #474747;
+}
+.experience-title {
+  font-size: 25px;
+  font-weight: bold;
+  color: #474747;
+}
+.experience-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
+}
+.experience-sub-title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #757575;
+  margin-bottom: 20px;
+}
+/* Resume End */
+
+
+
+/* Footer Start */
+footer {
+  display: flex;
+  padding: 130px 230px;
+  gap: 100px;
+}
+
+.footer-column {
+  width: 50%;
+}
+
+footer input[type="text"]{
+  height: 50px;
+  border-radius: 5px;
+  background-color: #fff;
+  display: block;
+  width: 70%;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: 0;
+}
+footer input[type="email"]{
+  height: 50px;
+  border-radius: 5px;
+  background-color: #fff;
+  display: block;
+  width: 70%;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: 0;
+}
+footer textarea{
+  height: 100px;
+  border-radius: 5px;
+  background-color: #fff;
+  display: block;
+  width: 70%;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: 0;
+}
